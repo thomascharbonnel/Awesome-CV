@@ -80,6 +80,7 @@
 \RequirePackage[skins]{tcolorbox}
 % Needed to deal a paragraphs
 \RequirePackage{parskip}
+\RequirePackage{emojione}
 % Needed to deal hyperlink
 \RequirePackage[hidelinks,unicode]{hyperref}
 \hypersetup{%
