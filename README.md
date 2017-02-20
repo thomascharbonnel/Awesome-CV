@@ -38,9 +38,7 @@
 
 You can see [PDF](https://raw.githubusercontent.com/thomascharbonnel/Awesome-CV/master/examples/resume.pdf)
 
-| Page. 1 | Page. 2 |
-|:---:|:---:|
-| [![Résumé](https://raw.githubusercontent.com/thomascharbonnel/Awesome-CV/master/examples/resume-0.png)](https://raw.githubusercontent.com/thomascharbonnel/Awesome-CV/master/examples/resume.pdf)  | |
+[![Résumé](https://raw.githubusercontent.com/thomascharbonnel/Awesome-CV/master/examples/resume-0.png)](https://raw.githubusercontent.com/thomascharbonnel/Awesome-CV/master/examples/resume.pdf)
 
 #### Cover Letter
 
