@@ -1,6 +1,6 @@
 <h1 align="center">
-  <a href="https://github.com/posquit0/Awesome-CV" title="AwesomeCV Documentation">
-    <img alt="AwesomeCV" src="https://github.com/posquit0/Awesome-CV/raw/master/icon.png" width="200px" height="200px" />
+  <a href="https://github.com/thomascharbonnel/Awesome-CV" title="AwesomeCV Documentation">
+    <img alt="AwesomeCV" src="https://github.com/thomascharbonnel/Awesome-CV/raw/master/icon.png" width="200px" height="200px" />
   </a>
   <br />
   Awesome CV
@@ -11,16 +11,16 @@
 </p>
 
 <div align="center">
-  <a href="https://circleci.com/gh/posquit0/Awesome-CV">
-    <img alt="CircleCI" src="https://circleci.com/gh/posquit0/Awesome-CV.svg?style=shield" />
+  <a href="https://circleci.com/gh/thomascharbonnel/Awesome-CV">
+    <img alt="CircleCI" src="https://circleci.com/gh/thomascharbonnel/Awesome-CV.svg?style=shield" />
   </a>
-  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf">
+  <a href="https://raw.githubusercontent.com/thomascharbonnel/Awesome-CV/master/examples/resume.pdf">
     <img alt="Example Resume" src="https://img.shields.io/badge/resume-pdf-green.svg" />
   </a>
-  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/cv.pdf">
+  <a href="https://raw.githubusercontent.com/thomascharbonnel/Awesome-CV/master/examples/cv.pdf">
     <img alt="Example CV" src="https://img.shields.io/badge/cv-pdf-green.svg" />
   </a>
-  <a href="https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf">
+  <a href="https://raw.githubusercontent.com/thomascharbonnel/Awesome-CV/master/examples/coverletter.pdf">
     <img alt="Example Coverletter" src="https://img.shields.io/badge/coverletter-pdf-green.svg" />
   </a>
 </div>
@@ -36,19 +36,19 @@
 
 #### Résumé
 
-You can see [PDF](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf)
+You can see [PDF](https://raw.githubusercontent.com/thomascharbonnel/Awesome-CV/master/examples/resume.pdf)
 
 | Page. 1 | Page. 2 |
 |:---:|:---:|
-| [![Résumé](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume-0.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf)  | [![Résumé](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume-1.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf) |
+| [![Résumé](https://raw.githubusercontent.com/thomascharbonnel/Awesome-CV/master/examples/resume-0.png)](https://raw.githubusercontent.com/thomascharbonnel/Awesome-CV/master/examples/resume.pdf)  | |
 
 #### Cover Letter
 
-You can see [PDF](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf)
+You can see [PDF](https://raw.githubusercontent.com/thomascharbonnel/Awesome-CV/master/examples/coverletter.pdf)
 
 | Without Sections | With Sections |
 |:---:|:---:|
-| [![Cover Letter(Traditional)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter-0.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf)  | [![Cover Letter(Awesome)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter-1.png)](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/coverletter.pdf) |
+| [![Cover Letter(Traditional)](https://raw.githubusercontent.com/thomascharbonnel/Awesome-CV/master/examples/coverletter-0.png)](https://raw.githubusercontent.com/thomascharbonnel/Awesome-CV/master/examples/coverletter.pdf)  | [![Cover Letter(Awesome)](https://raw.githubusercontent.com/thomascharbonnel/Awesome-CV/master/examples/coverletter-1.png)](https://raw.githubusercontent.com/thomascharbonnel/Awesome-CV/master/examples/coverletter.pdf) |
 
 
 ## <a name="quick-start">Quick Start
