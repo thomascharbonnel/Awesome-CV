@@ -1,22 +1,39 @@
-.PHONY: examples
+.PHONY: all
 
-CC = xelatex
-EXAMPLES_DIR = examples
-RESUME_DIR = examples/resume
-CV_DIR = examples/cv
-RESUME_SRCS = $(shell find $(RESUME_DIR) -name '*.tex')
-CV_SRCS = $(shell find $(CV_DIR) -name '*.tex')
+CC = lualatex
+ENGLISH_DIR = english
+FRENCH_DIR = french
+RESUME_DIR = resume
+CV_DIR = cv
+ENGLISH_RESUME_SRCS = $(shell find $(ENGLISH_DIR)/$(RESUME_DIR) -name '*.tex')
+ENGLISH_CV_SRCS = $(shell find $(ENGLISH_DIR)/$(CV_DIR) -name '*.tex')
 
-examples: $(foreach x, coverletter cv resume, $x.pdf)
+all: english french
 
-resume.pdf: $(EXAMPLES_DIR)/resume.tex $(RESUME_SRCS)
-	$(CC) -output-directory=$(EXAMPLES_DIR) $<
+english: $(foreach x, english_resume english_cv english_coverletter, $x)
 
-cv.pdf: $(EXAMPLES_DIR)/cv.tex $(CV_SRCS)
-	$(CC) -output-directory=$(EXAMPLES_DIR) $<
+english_resume: $(ENGLISH_DIR)/resume.tex $(RESUME_SRCS)
+	$(CC) -output-directory=$(ENGLISH_DIR) $<
 
-coverletter.pdf: $(EXAMPLES_DIR)/coverletter.tex
-	$(CC) -output-directory=$(EXAMPLES_DIR) $<
+english_cv: $(ENGLISH_DIR)/cv.tex $(CV_SRCS)
+	$(CC) -output-directory=$(ENGLISH_DIR) $<
+
+english_coverletter: $(ENGLISH_DIR)/coverletter.tex
+	$(CC) -output-directory=$(ENGLISH_DIR) $<
+
+FRENCH_RESUME_SRCS = $(shell find $(FRENCH_DIR)/$(RESUME_DIR) -name '*.tex')
+FRENCH_CV_SRCS = $(shell find $(FRENCH_DIR)/$(CV_DIR) -name '*.tex')
+
+french: $(foreach x, french_resume french_cv french_coverletter, $x)
+
+french_resume: $(FRENCH_DIR)/resume.tex $(RESUME_SRCS)
+	$(CC) -output-directory=$(FRENCH_DIR) $<
+
+french_cv: $(FRENCH_DIR)/cv.tex $(CV_SRCS)
+	$(CC) -output-directory=$(FRENCH_DIR) $<
+
+french_coverletter: $(FRENCH_DIR)/coverletter.tex
+	$(CC) -output-directory=$(FRENCH_DIR) $<
 
 clean:
-	rm -rf $(EXAMPLES_DIR)/*.pdf
+	rm -rf $(ENGLISH_DIR)/*.pdf $(FRENCH_DIR)/*.pdf
