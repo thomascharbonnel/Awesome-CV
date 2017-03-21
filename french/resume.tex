@@ -54,7 +54,7 @@
 % Available options: circle|rectangle,edge/noedge,left/right
 % \photo[rectangle,edge,right]{./examples/profile}
 \name{Thomas}{Charbonnel}
-\position{Software Engineer}%{\enskip\cdotp\enskip}Security Expert}
+\position{Ingénieur en informatique}%{\enskip\cdotp\enskip}Security Expert}
 \address{6/F Wui Fu Building, 10-12 Stone Nullah Lane, Wan Chai, Hong Kong SAR}
 
 \mobile{\emojiflagfr ~ (+33)\,9\,77\,19\,99\,93 ~~~ \emojiflaghk ~ (+852)\,5687\,5995}
@@ -83,7 +83,7 @@
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
 \makecvfooter
-  {Février 2017}
+  {\today}
   {Thomas Charbonnel~~~·~~~CV}
   {\thepage}
 
@@ -92,15 +92,27 @@
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
+\vspace{1cm}
 \input{resume/summary.tex}
-\input{resume/experience.tex}
-%\input{resume/honors.tex}
-%\input{resume/presentation.tex}
-%\input{resume/writing.tex}
-%\input{resume/committees.tex}
-\input{resume/education.tex}
-%\input{resume/extracurricular.tex}
-\input{resume/languages.tex}
+\begin{minipage}[t]{.62\textwidth}
+  \input{resume/experience.tex}
+  %\input{resume/honors.tex}
+  %\input{resume/presentation.tex}
+  %\input{resume/writing.tex}
+  %\input{resume/committees.tex}
+  \input{resume/education.tex}
+  \input{resume/tech_skills.tex}
+\end{minipage}\hfill\vline\hfill%\begin{minipage}[t]{.04\textwidth}
+%  \hspace{10cm}
+%\end{minipage}
+\begin{minipage}[t]{.34\textwidth}
+  \input{resume/languages.tex}
+  \input{resume/extracurricular.tex}
+  \vspace{5cm}
+  \begin{center}
+    \includegraphics{qrcode}
+  \end{center}
+\end{minipage}
 
 
 %-------------------------------------------------------------------------------
